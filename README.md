@@ -29,9 +29,9 @@ Technology leader with 20+ years in software development, infrastructure, and IT
 
 ## Work Experience
 
-### Engineering Manager — SeamlessPay *(08/2025 – Present)*
+### Engineering Manager — SeamlessPay _(08/2025 – Present)_
 
-A payment processing company that helps high-growth businesses increase payment approvals and recover lost revenue using AI-powered routing, network tokens, 3D Secure, and automated dispute management.
+_A payment processing company that helps high-growth businesses increase payment approvals and recover lost revenue using AI-powered routing, network tokens, 3D Secure, and automated dispute management._
 
 - **Product Delivery** – Delivered 3D Secure end-to-end, enabling liability shift for SeamlessPay's merchant clients. Bridged executive delivery commitments with engineering capacity.
 - **Platform Modernization** – Steering the migration from Feathers on Lambda to Phoenix on EC2 with fully automated deployments to production. Measured request times dropped by two orders of magnitude.
@@ -42,9 +42,9 @@ A payment processing company that helps high-growth businesses increase payment 
 
 ---
 
-### CTO — Xolomon Tree *(08/2020 – 08/2025)*
+### CTO — Xolomon Tree _(08/2020 – 08/2025)_
 
-A state-of-the-art online platform for the creation of Electronic Data Collection notebooks (EDC) and biomedical systems.
+_A state-of-the-art online platform for the creation of Electronic Data Collection notebooks (EDC) and biomedical systems._
 
 - **Product Development** – Designed and built X5 from scratch — a full clinical research suite covering EDC, CTMS and ePROs, among others — to replace a legacy platform that couldn't scale. Hands-on developer roughly 85% of the time.
 - **Engineering Foundation** – Built the IT department from zero: introduced Git, CI/CD via Azure DevOps, automated testing, Scrum and best practices in software development to an organization that had none of it.
@@ -55,9 +55,9 @@ A state-of-the-art online platform for the creation of Electronic Data Collectio
 
 ---
 
-### Programmer Analyst & Agile Coach — Raet | Visma *(07/2016 – 08/2020)*
+### Programmer Analyst & Agile Coach — Raet | Visma _(07/2016 – 08/2020)_
 
-The largest Dutch enterprise providing payroll and Human Capital Management software (HCM) worldwide.
+_The largest Dutch enterprise providing payroll and Human Capital Management software (HCM) worldwide._
 
 - **Agile Leadership** – Guided nearly 100 employees in Agile transformation, improving collaboration, delivery speed, and product quality.
 - **Team Management** – Built and led a team of 6 developers, managing hiring, training, and team restructuring to enhance efficiency and job satisfaction.
@@ -68,7 +68,7 @@ The largest Dutch enterprise providing payroll and Human Capital Management soft
 
 ---
 
-### Game Developer & Tech Lead — eRepublik Labs / Zed Group *(05/2008 – 07/2016)*
+### Game Developer & Tech Lead — eRepublik Labs / Zed Group _(05/2008 – 07/2016)_
 
 - **Backend Development** – Built scalable architectures for online games (PHP, NodeJS).
 - **Game Development** – Developed AI, matchmaking, and performance-optimized Unity3D games.
@@ -79,13 +79,13 @@ The largest Dutch enterprise providing payroll and Human Capital Management soft
 
 ---
 
-### Software Engineer — Indra / Everis / Gesfor *(12/2004 – 05/2008)*
+### Software Engineer — Indra / Everis / Gesfor _(12/2004 – 05/2008)_
 
 - Developed JS BI tools and high-performance front-end for major clients.
 - Improved UI/UX & system performance for high-traffic applications.
 
 ## Education & Languages
 
-**Scrum & Agile Training**, Ángel Medinilla *(10/2008, 05/2012)*  
-**Telecommunications Engineering**, European University of Madrid *(10/1998 – 09/2004)*  
-**Languages:** Spanish *(native)*, English *(proficient)*, German *(basic)*, Romanian *(basic)*
+**Scrum & Agile Training**, Ángel Medinilla _(10/2008, 05/2012)_  
+**Telecommunications Engineering**, European University of Madrid _(10/1998 – 09/2004)_  
+**Languages:** Spanish _(native)_, English _(proficient)_, German _(basic)_, Romanian _(basic)_
