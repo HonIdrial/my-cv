@@ -1,0 +1,256 @@
+/* ========== theme ========== */
+:root {
+  --primary-color: 74 134 232;
+  --muted-color: 0 0 0;
+  --marker-color: 105 170 80;
+
+  --font-size-heading: 14pt;
+  --font-size-secondary: 12pt;
+  --font-size-body: 11pt;
+  --muted-opacity: 0.5;
+  --page-margin-h: 15mm;
+  --letter-spacing: 1px;
+}
+
+/* ========== body ========== */
+html {
+  text-align: justify;
+}
+
+body {
+  align-items: center;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu';
+  gap: 10mm;
+  margin: 10mm 0;
+}
+
+article {
+  margin-bottom: 3mm;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5mm;
+}
+
+p {
+  margin: 3mm 0 1.5mm;
+}
+
+ul {
+  margin-bottom: 2mm;
+  margin-top: 2mm;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.spacer--underlined {
+  border-bottom: 0.5mm solid rgb(var(--primary-color));
+}
+
+/* ========== page ========== */
+.page {
+  box-shadow: 0 4px 32px rgb(var(--muted-color) / 0.25);
+  height: 297mm;
+  background: linear-gradient(135deg,
+      white 0%,
+      white 30%,
+      rgb(var(--primary-color) / 0.25) 100%);
+  position: relative;
+  width: 210mm;
+}
+
+/* ========== header ========== */
+.cv__header {
+  height: 45mm;
+  margin-top: 3mm;
+  position: relative;
+  width: 100%;
+}
+
+/* ========== banner ========== */
+.banner {
+  height: 38mm;
+  letter-spacing: var(--letter-spacing);
+  position: relative;
+  width: 100%;
+}
+
+.banner__content {
+  color: white;
+  left: 10mm;
+  position: absolute;
+  top: 9mm;
+}
+
+.banner__name {
+  font-size: 30pt;
+  font-weight: 300;
+  margin: 0 0 2.5mm 0;
+}
+
+.banner__shape {
+  border-radius: 0 999px 999px 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.banner__shape--back {
+  background: rgb(var(--primary-color) / 0.3);
+  width: 74%;
+}
+
+.banner__shape--mid {
+  background: rgb(var(--primary-color) / 0.4);
+  width: 68%;
+}
+
+.banner__shape--front {
+  background: rgb(var(--primary-color) / 0.5);
+  width: 60%;
+}
+
+.banner__title {
+  color: white;
+  margin: 2.5mm 0 0 0;
+  font-size: var(--font-size-heading);
+}
+
+/* ========== contact ========== */
+.contact {
+  bottom: 0;
+  color: rgb(var(--muted-color) / var(--muted-opacity));
+  font-size: var(--font-size-secondary);
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/* ========== separator ========== */
+.separator {
+  border-top: 0.5mm solid rgb(var(--primary-color));
+  margin: 3mm var(--page-margin-h);
+  width: 180mm;
+}
+
+/* ========== section ========== */
+section {
+  margin: 3mm var(--page-margin-h);
+}
+
+.section--continued {
+  margin-top: 15mm;
+}
+
+.section__title {
+  letter-spacing: var(--letter-spacing);
+  margin: 3mm 0 2mm;
+  text-transform: uppercase;
+}
+
+/* ========== summary ========== */
+.summary__description {
+  font-size: var(--font-size-body);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* ========== job ========== */
+.job__role {
+  color: rgb(var(--primary-color));
+  font-size: var(--font-size-heading);
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 1mm;
+}
+
+.job__info {
+  display: flex;
+  font-size: var(--font-size-secondary);
+}
+
+.job__company {
+  color: rgb(var(--primary-color));
+}
+
+.job__dates {
+  color: rgb(var(--muted-color) / var(--muted-opacity));
+  font-style: italic;
+}
+
+.job__summary {
+  font-size: 9pt;
+  font-style: italic;
+}
+
+/* ========== lists ========== */
+.list--arrows {
+  list-style-type: "➢    ";
+}
+
+.list--checkmarks {
+  list-style-type: "✔    ";
+}
+
+.list--arrows li::marker,
+.list--checkmarks li::marker {
+  color: rgb(var(--marker-color));
+}
+
+/* ========== skills ========== */
+.skills__group {
+  color: rgb(var(--primary-color));
+  display: flex;
+  font-size: var(--font-size-heading);
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 1mm;
+}
+
+/* ========== education ========== */
+.education__title {
+  color: rgb(var(--primary-color));
+  font-size: var(--font-size-heading);
+  font-weight: 700;
+}
+
+.education__group {
+  align-items: baseline;
+  display: flex;
+  margin-bottom: 1mm;
+}
+
+.education__institution {
+  font-size: var(--font-size-body);
+}
+
+.education__date {
+  color: rgb(var(--muted-color) / var(--muted-opacity));
+  font-size: var(--font-size-body);
+  font-style: italic;
+}
+
+/* ========== strip ========== */
+.color-strip {
+  background: rgb(var(--primary-color));
+  height: 2mm;
+}

@@ -1,0 +1,20 @@
+@page {
+  margin: 0;
+  size: A4;
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    margin: 0;
+    gap: 0;
+  }
+
+  .page {
+    box-shadow: none;
+  }
+}
