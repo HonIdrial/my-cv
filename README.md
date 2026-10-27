@@ -38,11 +38,11 @@ _A payment processing company that helps high-growth businesses increase payment
 - **Team Leadership** – Leading two parallel teams: one on legacy maintenance, payment terminals application, and mobile SDKs, one driving the architectural rewrite. Recurring 1:1s, PR reviews and cross-team unblocking.
 - **Process & Coordination** – Designed a collaboration framework, monitored its performance, and replaced it when it proved the wrong fit. Distributed team across five countries all over the globe.
 
-**Tech Stack:** Claude.ai, Claude Code, Phoenix (Elixir), TailwindCSS, Docker, OpenTofu, PostgreSQL, AWS, Jira, Confluence, GitHub, VS Code
+**Tech Stack:** Claude.ai, Claude Code, Phoenix (Elixir), TailwindCSS, Docker, OpenTofu, Python, PostgreSQL, AWS, Jira, Confluence, GitHub, VS Code, CircleCI
 
 ---
 
-### CTO — Xolomon Tree _(08/2020 – 08/2025)_
+### Engineering Manager — Xolomon Tree _(08/2020 – 08/2025)_
 
 _A state-of-the-art online platform for the creation of Electronic Data Collection notebooks (EDC) and biomedical systems._
 
